@@ -1,3 +1,46 @@
+function Click(){
+			 var yanzhengma = document.getElementById("yan").value;
+			 if (yanzhengma == 3956)
+			 {
+				 document.getElementById("name").innerHTML="张梓敬";
+				 document.getElementById("xuehao").innerHTML=" 22920202202862 ";
+			 	 document.getElementById("qq").innerHTML="1092727518@qq.com"; 
+			 }
+			 else
+			 {
+				alert("验证码错误!!");	 
+			 }
+			
+			}
+
+function email(){
+	alert("留言内容已成功发送到zzj邮箱！-- (如果你信的话)");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 function FP_preloadImgs() {//v1.0
  var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
@@ -19,9 +62,3 @@ function FP_getObjectByID(id,o) {//v1.0
  for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
  return null;
 }
-
-function Click(){
-			 document.getElementById("name").innerHTML="张梓敬";
-			 document.getElementById("xuehao").innerHTML=" 22920202202862 ";
-			 document.getElementById("qq").innerHTML="1092727518@qq.com";
-			}
