@@ -1,0 +1,81 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>ZZJ</title>
+<script language="JavaScript">
+<!--
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
+function FP_swapImg() {//v1.0
+ var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
+ n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
+ elm.$src=elm.src; elm.src=args[n+1]; } }
+}
+
+function FP_getObjectByID(id,o) {//v1.0
+ var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
+ else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
+ if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
+ for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
+ f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
+ for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
+ return null;
+}
+// -->
+</script>
+</head>
+
+<body background="background.jpg" onload="FP_preloadImgs(/*url*/'images/index/button/button5.gif', /*url*/'images/index/button/button6.gif')">
+	
+	
+	
+<p align="center"><strong>
+<font face="Gill Sans Ultra Bold Condensed" size="6" color="#008000">Welcome to 
+ZZJ&#39;s Private Blog</font></strong></p>
+
+<p align="center"><b><font face="黑体" size="6">/*验证码*/</font></b></p>
+<table border="1" width="80%">
+	<tr>
+		<td colspan="3">
+		<p align="center"><font face="黑体" size="6">个人信息表</font></td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+	</tr>
+</table>
+<form method="POST" action="--WEBBOT-SELF--">
+	<!--webbot bot="SaveResults" U-File="fpweb:///_private/form_results.csv" S-Format="TEXT/CSV" S-Label-Fields="TRUE" -->
+	<p>&nbsp;<img border="0" src="images/profile.png" width="140" height="96">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<input type="text" name="T1" size="20">&nbsp;&nbsp;&nbsp;
+	<input type="submit" value="提交" name="B1"></p>
+</form>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p align="center">
+<a href="http://www.baidu.com">
+<img border="0" id="img1" src="images/index/button/button4.gif" height="36" width="106" alt="中文/ English" fp-style="fp-btn: Glow Rectangle 1; fp-font: 等线; fp-font-size: 7; fp-transparent: 1; fp-proportional: 0" fp-title="中文/ English" onmouseover="FP_swapImg(1,0,/*id*/'img1',/*url*/'images/index/button/button5.gif')" onmouseout="FP_swapImg(0,0,/*id*/'img1',/*url*/'images/index/button/button4.gif')" onmousedown="FP_swapImg(1,0,/*id*/'img1',/*url*/'images/index/button/button6.gif')" onmouseup="FP_swapImg(0,0,/*id*/'img1',/*url*/'images/index/button/button5.gif')" align="right"></a> </p>
+<p align="center">
+</p>
+<p align="center">
+</p>
+<p align="center">
+</p>
+<p align="center">
+</p>
+	
+	
+	
+</body>
+
+</html>
